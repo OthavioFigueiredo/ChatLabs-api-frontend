@@ -4,4 +4,4 @@ install.api:
 
 run.api:
 	@echo "--> Running API"
-	@npm start dev
+	@npm run dev
