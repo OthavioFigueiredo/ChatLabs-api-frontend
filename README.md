@@ -4,4 +4,4 @@ Este projeto tem o objetivo de criar uma arquitetura que permita a obtenção de
 
 ## COMECE POR AQUI
 
-git clone
+git clone git@github.com:OthavioFigueiredo/ChatLabs-api-frontend.git

@@ -1,0 +1,238 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.productHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.imageThumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 15px;
+  padding: 10px;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.productImageContainer {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.productImage {
+  width: 100%;
+  max-height: 500px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+.productCard {
+  padding: 20px;
+  text-align: center;
+  width: 60%;
+  flex: 1;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.productDetails {
+  width: 35%;
+  margin-bottom: 20px;
+}
+
+.productTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ratingSection {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.starIcon {
+  width: 30px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.HeartIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 28px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeartIcon.favorited {
+  background-color: red;
+}
+
+.rating {
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.priceInfo {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.priceComparison {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.priceComparison div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+  width: 200px;
+}
+
+.priceComparison .priceLabel {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 5px;
+  padding-right: 5px;
+}
+
+.priceComparison .priceValue {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.priceComparison .Link {
+  font-size: 14px;
+  color: blue;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.normalText {
+  font-weight: normal;
+}
+
+.boldText {
+  font-weight: bold;
+}
+
+.storeList {
+  margin-bottom: 20px;
+}
+
+.storeItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.storeLogo {
+  width: 120px;
+  height: 20px;
+  background-color: #aaa7a7;
+  border-radius: 100px;
+  margin-right: 50px;
+}
+
+.storeLink {
+  display: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.storeIcon {
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+}
+
+.storeText {
+  margin-left: 300px;
+  margin-right: auto;
+  margin: 0;
+}
+
+.otherProducts {
+  width: 150px;
+  height: 150px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.otherProducts img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.storePrice {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.priceHistory {
+  margin-top: 20px;
+}
+
+.priceChart {
+  width: 100%;
+  height: 200px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}

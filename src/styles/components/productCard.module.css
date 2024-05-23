@@ -1,0 +1,22 @@
+.productCard {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  width: 60px;
+  flex: 1 1 calc(33.333% - 40px);
+  box-sizing: border-box;
+  background-color: gray;
+}
+
+.productImage {
+  max-width: 75%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.productTitle {
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
